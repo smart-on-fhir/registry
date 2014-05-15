@@ -1,4 +1,4 @@
-fhir-registry2
-==============
+fhir-registry
+=============
 
 Registry of FHIR Profiles for SMART Platforms

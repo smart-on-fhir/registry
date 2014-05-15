@@ -1,0 +1,48 @@
+<Profile xmlns="http://hl7.org/fhir">
+  <name value="URIs for OAuth2 Authentication Service" />
+  <extensionDefn>
+    <code value="oauth2-hooks-registration" />
+    <contextType value="resource" />
+    <context value="Conformance.rest.security.service" />
+    <definition>
+      <short value="OAuth2 Hook for Registration" />
+      <formal value="URI for registering with the OAuth2 service" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+         <code value="uri" />
+      </type>
+      <isModifier value="false" />
+    </definition>
+  </extensionDefn>
+  <extensionDefn>
+    <code value="oauth2-hooks-authorize" />
+    <contextType value="resource" />
+    <context value="Conformance.rest.security.service" />
+    <definition>
+      <short value="OAuth2 Hook for Authorization" />
+      <formal value="URI for authorizing a request with the OAuth2 service" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+         <code value="uri" />
+      </type>
+      <isModifier value="false" />
+    </definition>
+  </extensionDefn>
+  <extensionDefn>
+    <code value="oauth2-hooks-token" />
+    <contextType value="resource" />
+    <context value="Conformance.rest.security.service" />
+    <definition>
+      <short value="OAuth2 Hook for Token Validation" />
+      <formal value="URI for validating a token with the OAuth2 service and resolving the scope of the token" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+         <code value="uri" />
+      </type>
+      <isModifier value="false" />
+    </definition>
+  </extensionDefn>
+</Profile>
